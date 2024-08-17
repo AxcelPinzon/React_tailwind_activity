@@ -11,7 +11,6 @@ export default function HeroSection() {
           Shop The Latest Releases Today. Styles: Mens, Womens, Kids, Boys,
           Girls.
         </p>
-        <a className="inline-block mt-8 bg-indigo-500 text-white px-16 py-3 shadow rounded font-bold uppercase transition duration-300 ease-in hover:-translate-y-1"></a>
       </header>
     </div>
   );
