@@ -1,25 +1,21 @@
-export default function HeroSelection() {
+export default function HeroSection() {
   return (
-    <>
-      <div className="w-full h-full grid grid-cols-2 gap-10 items-center relative z-10">
-        <div className="text-white flex flex-col justify-center pl-28 relative">
-          <h1 className="text-7xl font-bold text-center">Just Do It</h1>
-          <p className="text-center">Any Place. Any Time. Any Condition.</p>
-          <p className="text-center">
-            Be Your Best Every Time With Nike Shoes And Clothing.
-          </p>
-          <p className="text-center">
-            The UnOfficial Website. Home Of Everything Nike.
-          </p>
-          <p className="text-center">
-            Shop The Latest Releases Today. Styles: Mens, Womens, Kids, Boys,
-            Girls.
-          </p>
-          <h2 className="text-center">
-            Fore more info, please visite the official website of Nike.
-          </h2>
-        </div>
-      </div>
-    </>
+    <div className="max-w-screen-lg mx-auto text-center">
+      <header className="my-32">
+        <h1 className="my-8 text-6xl font-bold uppercase">Just Do it</h1>
+        <p className="text-xl leading-loose">
+          Any Place. Any Time. Any Condition. Be Your Best Every Time With Nike
+          Shoes And Clothing. The Official Website. Home Of Everything Nike.
+          Shop The Latest Releases Today. Styles: Mens, Womens, Kids, Boys,
+          Girls.
+        </p>
+        <a
+          href="#projects"
+          className="inline-block mt-8 bg-indigo-500 text-white px-16 py-3 shadow rounded font-bold uppercase transition duration-300 ease-in hover:-translate-y-1"
+        >
+          Projects
+        </a>
+      </header>
+    </div>
   );
 }
