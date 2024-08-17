@@ -1,8 +1,8 @@
 export default function HeroSelection() {
   return (
     <>
-      <div className="flex justify-center items-center">
-        <div className="text-white flex flex-col">
+      <div className="w-full h-full grid grid-cols-2 gap-10 items-center relative z-10">
+        <div className="text-white flex flex-col justify-center pl-28 relative">
           <h1 className="text-7xl font-bold text-center">Just Do It</h1>
           <p className="text-center">Any Place. Any Time. Any Condition.</p>
           <p className="text-center">
