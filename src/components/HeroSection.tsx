@@ -2,7 +2,7 @@ export default function HeroSelection() {
   return (
     <>
       <div className="flex justify-center items-center">
-        <div className="text-white flex flex-col">
+        <div className=text-white fl"ex flex-col">
           <h1 className="text-7xl font-bold text-center">Just Do It</h1>
           <p className="text-center">Any Place. Any Time. Any Condition.</p>
           <p className="text-center">
